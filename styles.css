@@ -89,6 +89,7 @@ html {
     color:#192A30;
   }
 
+  
   .home-body{
     background-image: url("background.jpg");
     background-size: cover;
@@ -134,4 +135,33 @@ html {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+  }
+
+
+  .about-container {
+    width: 80%;
+    background-color:#D9D7C5;
+    box-shadow: 8px 8px 5px #243B45;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+  }
+
+  .about-text {
+    flex: 1;
+    width: 100%;
+    padding-right: 100px;
+    font-size: 18px;
+    min-width: 200px;
+  }
+
+  .about-image img{
+    flex: 1;
+    max-width: 100%;
+    max-height: 550px;
+    border-radius: 10px;
   }
