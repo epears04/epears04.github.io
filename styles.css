@@ -82,14 +82,13 @@ html {
   }
 
   /* General CSS */
-  #img-body {
-    background-image: url("/../resources/background.jpg"); 
+  body {
+    background-image: url("images/background.jpg");
     background-size: cover;
   }
-  
 
   .page-body{
-    background-color: #86A6A6;
+    background-color: #3C6373;
   }
 
 
@@ -177,7 +176,7 @@ html {
     box-shadow: 8px 8px 5px #243B45;
     border-radius: 10px;
     padding: 15px;
-    margin: 25px;
+    margin: 15px;
   }
 
   .entry h3 {
@@ -219,10 +218,4 @@ html {
     border-radius: 10px;
     border: 5px solid #243B45;
     box-shadow: 5px 5px 5px #243B45;
-  }
-
-  /* Blog CSS */
-
-  .blog-img {
-    max-width: 696px;
   }
